@@ -5,52 +5,66 @@
         <meta charset="UTF-8" />
         <title>Home | About</title>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
 <body>
 
-    <header>
-
-         <div class="wrapper">
-
-            <h1>Orit Freud</h1>
-                <nav>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html" class="contact">Contact</a>
-                </nav>
-
-        </div>
-
+    <header class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                  
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Orit Freud</a>
+                </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html" class="contact">Contact</a></li>
+                    </ul>   
+            </div>
+        </nav>
     </header>
 
-    <div class="wrapper">
-        <section id="box1">
 
-            <h2>About Me</h2>
+<div id="box1">
+    <div class="container">
 
-            
+        <div class="row">
+            <div class="col-md-12">
+                <h2>About Me</h2>
+            </div>
+        </div>
+        
+        <div class "row">
+            <div class="col-md-3.5">
+                <img id="profile" src="https://scontent.fatl1-2.fna.fbcdn.net/v/t1.0-9/10354873_10154766328310054_2884048916215892825_n.jpg?oh=c735a40a2c6d6b0d537867bdf40a8f3b&oe=5B429545" alt="Orit img" class="img-circle"/>
+            </div>
 
-            <img id="profile" src="https://media.licdn.com/dms/image/C4D03AQFuAF-6x-cdQQ/profile-displayphoto-shrink_200_200/0?e=1525546800&v=alpha&t=sy_fsKmjz0ntzCffkSAv6JRTaXffLzjQS_texfkaE0g" alt="Orit img" />
+            <div class="col-md-8.5">
+                <p class="text-info">A little about myself.. I was Born 1989 in Columbus, Ohio, but grew up my entir life in Israel since i was 15 months old. At the age of 18 I joined the army for two years since it's mandatory for all citizens. Once finished, traveled to the united states for a year to visit family and just explore. When i returned to Israel i got my bachelor's degree in business management. Just before school started i met my husband and we got married in my 3rd year of school. 
+                </p>
+            </div>    
+        </div>
 
-            <p>A little about myself.. I was Born in 1989 in Columbus, Ohio, but grew up my entir life in Israel since i was 15 months old. At the age of 18 I joined the army for two years since it's mandatory for all citizens. Once finished, traveled to the united states for a year to visit family and just explore. When i returned to Israel i got my bachelor's degree in business management. Just before school started i met my husband and we got married in my 3rd year of school. 
-            </p>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-info">After i graduated in 2016 we flew to the united states for our honeymoon, thats when we decided to move there to change it up a little. My husband, dog and I as well as the little baby we were expecting, moved to Atlanta, Georgia.</p>
 
-            <p>After i graduated in 2016 we flew to the united states for our honeymoon, thats when we decided to move there to change it up a little. My husband, dog and I as well as the little baby we were expecting, moved to Atlanta, Georgia.</p>
-
-            <p>At this point in life, I'm a student at Georgia Tech, taking a coding bootcamp course of 12 weeks. In my spare time, I love spending time with my family including the dog and being able to watch my baby grow and learn new things everyday gives me such joy! Also, traveling, watching movies, swimming and kickboxing are things that i very much enjoy.</p>
-
-        </section>      
-
+                <p class="text-info">At this point in life, I'm a student at Georgia Tech, taking a coding bootcamp course of 12 weeks to become a full stack web developer. In my spare time, I love spending time with my family including the dog and being able to watch my baby grow and learn new things everyday gives me such joy! Also, traveling, watching movies, swimming and kickboxing are things that i very much enjoy.</p>
+            </div>    
+        </div>   
     </div>
+</div>
 
-    <div class="clearfix"></div>
 
 
-    <footer>
-        &copy; Copyright 2018 Orit Freud
-    </footer>
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="navbar-header">
+            <div class="navbar-brand navbar-center">&copy; Copyright 2018 Orit Freud</div>
+        </div>     
+    </div>
 
 
     </body>

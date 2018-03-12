@@ -1,0 +1,25 @@
+.portfolio {
+    width: 200px;
+    height: 150px;
+}
+
+h3 {
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+#box3 {
+    margin-bottom: 50px;
+}
+
+#box1 {
+    margin-bottom: 100px;
+}
+
+#profile {
+    width: 250px;
+}
+
+.navbar {
+    background-color: #d986c5;
+}
