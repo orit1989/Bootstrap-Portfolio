@@ -8,6 +8,7 @@
 }
 h3 {
     padding-bottom: 5px;
+    padding-left: 25px;
 }
 
 #box3 {
@@ -46,7 +47,7 @@ h3 {
 }
 
 p {
-    padding-top: 70px;
+    padding-top: 85px;
     line-height: 2;
     font-family: cursive;
     font-size: 18px;
@@ -73,7 +74,7 @@ label {
 }
    
 .container {
-    min-height: 700px;
+    min-height: 800px;
 }
 
 h1 {
@@ -88,3 +89,13 @@ h1 {
 /* footer {
     width: 100%;
 } */
+
+body {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/green_dust_scratch.png");
+}
+
+h4 {
+    color: #3d474f;
+    font-family: cursive;   
+}
+
