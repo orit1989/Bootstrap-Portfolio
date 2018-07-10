@@ -1,0 +1,11 @@
+.container {
+    
+    height: 500px;;
+    width: 1450px;
+    background: url(http://sriasiamyanmartravel.com/images/home/putao-xw-1.jpg);
+}
+
+
+.container-fluid {
+    background: white;
+}
